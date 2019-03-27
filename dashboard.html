@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js">
+</script>
+ </head>
+ <body>
+ <div class="grid-container" id="dashcon">
+
+<div class="container" id="rightcon">
+    <div class="grid-x">
+		<div class="cell small-3 medium-6 large-1" id="sidebar">
+				<div class="lightCon left">
+			<img src="images/light_off.svg" class="sideicons" id="light">
+			<h5 class="hide-for-small-only" id="sensortxt">Lights</h5>
+		</div>
+		<div class="soundCon">
+			<img src="images/sound_off.svg" class="sideicons" id="sound">
+			<h5 class="hide-for-small-only" id="sensortxt">Sound Monitor</h5>
+		</div>
+		<div class="motionCon right">
+			<img src="images/motionSensor_off.svg" class="sideicons" id="motion">
+			<h5 class="hide-for-small-only" id="sensortxt">Motion Sensor</h5>
+		</div>
+		</div>
+ 	</div>
+
+
+ 	<div class="grid-x" id="infocon">
+ 		<div class="cell small-12 medium-6 large-5" id="infocon">
+ 			<h1 class="roomheadings">BEDROOMS</h1>
+			<h3 class="degree">20º</h3>
+			<div class="chart-con">
+				<div class="lineChart">
+				<canvas id="myChart"></canvas>
+				</div>
+			</div>
+ 		</div>
+ 	</div>
+</div>
+  
+ 	<div class="grid-x " id="pictureCon">
+ 	<div class="cell small-12 medium-6 large-6">
+ 		<img src="images/vladimir-mokry-1180901-unsplash.jpg" class="hide-for-small-only" id="roompic" alt="roompicture">
+ 		
+ 		<div class="cell" id="iconbar">
+ 			<a class="roombut">
+ 				<img src="images/masterbedroom.svg" class="icons" id="master">
+			</a>
+			
+			<a class="roombut">
+			<img src="images/bedroom.svg" class="icons" id="bedroom">
+			</a>
+
+			<a class="roombut">
+			<img src="images/living.svg" class="icons" id="living">
+			</a>
+
+			<a class="roombut">
+			<img src="images/kitchen.svg" class="icons" id="kitchen">
+			</a>
+
+			<a class="item">
+			<img src="images/bathroom.svg" class="icons" id="bathroom">
+			</a>
+		</div>
+ 		</div>
+ 	</div>
+ </div>
+
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/weekly.js"></script>
+  </body>
+</html>

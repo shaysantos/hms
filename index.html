@@ -1,15 +1,50 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Web Template</title>
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-</head>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/main.css">
 
-<body>
-  <!-- This is a comment The code will be below -->
-</body>
-<script src="js/app.js"></script>
+  </head>
+  <body>
+
+  <div class="grid-x">
+    <div class="cell medium-6" id="leftCon">
+      <img src="images/logo.svg" class="logo" alt="logo">
+    </div>
+
+    <div class="cell medium-6" id="rightCon"> 
+      <form>   
+       <div class="log-form">
+         <div class="form-field" id="user">
+          <label>Username</label>
+                  <input type="text" placeholder="username" id="username" class="input-field">
+              </div>
+
+              <div class="form-field" id="pass">
+                  <label>Password</label>
+                  <input type="text" placeholder="******"id="password" class="input-field">
+              </div>
+          </div>
+        </form>
+
+        <div class="buttons">
+          <button class="button expand large" id="signin"> Sign in</button>
+          <button class="button expand large" id="facebook">Login with facebook</button>
+        </div>
+            <p class="create"> Create an account </p>
+    </div>
+
+</div>
+
+    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
