@@ -1,0 +1,154 @@
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #F8F1EC;
+}
+
+h3 {
+	color: #FF8533;
+}
+
+#add {
+padding-left: 50px;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+#title2 {
+	color: #4D4745;
+	text-align: center;
+	padding-left: 100px;
+
+}
+#title {
+	color: #4D4745;
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 60px;
+}
+
+#add2 {
+	padding-left: 50px; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#header {
+	background-color: #F2CFB9;
+	color: #fff;
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+#settings {
+	width: 30px;
+}
+
+#label {
+	background-color: #4D4745;
+	padding: 10px;
+	color: #fff;
+	margin: 0;
+}
+
+#bed1 {
+	width: 100%;
+	margin: 0;
+}
+
+#bed2 {
+	width: 100%;
+	margin: 0;
+}
+
+
+#room1 {
+	
+	background-color: #fff;
+	color: #4D4745;
+}
+
+#room1:hover {
+	background-color: #4D4745;
+	color: #fff;
+	}
+
+
+#room2 {
+	background-color: #fff;
+	color: #4D4745;
+}
+
+#room2:hover {
+	background-color: #4D4745;
+	color: #fff;
+	}
+
+#room3 {
+background-color: #fff;
+	color: #4D4745;
+	text-align: center;
+}
+
+#room3:hover {
+	background-color: #4D4745;
+	color: #fff;
+	}
+
+#room4 {
+	background-color: #fff;
+	color: #4D4745;
+	text-align: center;
+}
+
+#room4:hover {
+	background-color: #4D4745;
+	color: #fff;
+	}
+
+#roombutton {
+	background-color: #fff;
+	color: #4D4745;
+	padding: 30px;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+#roombutton:hover {
+	background-color: #EBDE82;
+	color: #fff;
+}
+
+#statbutton {
+background-color: #fff;
+color: #4D4745;
+padding: 30px;
+width: 100%;
+margin: 0;
+text-align: center;
+}
+
+#statbutton:hover {
+	background-color: #EBDE82;
+	color: #fff;
+}
+
+#sidebar {
+	padding-top: 10px;
+	display: inline-flex;
+	align-content: center;
+}
+
+#light {
+	width: 70px;
+}
+
+#sound {
+	width: 70px;
+}
+
+#motion {
+	width: 70px;
+}
